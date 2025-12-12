@@ -71,4 +71,4 @@ Implementing privilege management:
 - Root Login Disabled
 
 Finally, this shows the newly created non-root administrative user, demonstrating the implementation of privilege management:
-<img width="615" height="382" alt="image" src="https://github.com/user-attachments/assets/ec4d853b-10fb-4ab4-9b71-b50ec1c1b2cd" />
+<img width="594" height="352" alt="image" src="https://github.com/user-attachments/assets/12024c6f-974d-4205-a8b1-e8922b95d4b8" />

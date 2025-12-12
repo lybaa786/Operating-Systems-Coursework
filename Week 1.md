@@ -43,4 +43,4 @@ This dual-adapter approach mirrors enterprise network designs where management n
 
 5. System specifications:
 `uname`, `free`, `df -h`, `ip addr` and `lsb_release`:
-<img width="594" height="400" alt="System Specifications" src="https://github.com/user-attachments/assets/9d448c38-eee3-4f0a-9dc1-7ab9d0fb43e5" />
+<img width="1330" height="951" alt="image" src="https://github.com/user-attachments/assets/a4b5b71e-297a-420c-907a-bb7574dba8b5" />

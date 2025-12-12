@@ -21,28 +21,51 @@ Step 4: Disabling Password Authentication:
 SSH Access Evidence showing successful connection screenshots:
 I changed the passwordAuthentification to no:
 <img width="962" height="107" alt="image" src="https://github.com/user-attachments/assets/d84f41ee-b9e4-484c-834d-12e7f570d86d" />
-I also changed the PermitRootLogin to no and make sure the PubKeyAuthentification was set as yes:
+
+I also changed the PermitRootLogin to no and made sure the PubKeyAuthentification was set as yes:
 <img width="439" height="296" alt="image" src="https://github.com/user-attachments/assets/f3abae9f-4e1c-4e7b-bac8-49fd947dd6d3" />
 
 Step 5: Testing it on a new Terminal:
+ADDDDDD THEEEEE LASSSSTTTTT STEPPPPP:!!! 
 
+Remote Administration - Commands were run remotely over SSH using the vboxuser@OSCM account.
 
 2. Configure a firewall permitting SSH from one specific workstation only:
+Step 1: Checking the UFW Status:
+<img width="827" height="251" alt="image" src="https://github.com/user-attachments/assets/23a96f9a-32e5-4a27-8b46-c5d5c15b17b2" />
 
+Step 2: Setting Default Policies:
+<img width="774" height="182" alt="image" src="https://github.com/user-attachments/assets/7014e118-2089-4a08-a2ff-9a8021c215d3" />
 
+Stepn 3: Allowing SSH from Workstation IP ONLY:
+<img width="1159" height="62" alt="image" src="https://github.com/user-attachments/assets/c0d3dec7-48d8-4bfa-bf0e-f36e99e092fc" />
 
+Step  4: Enabling UFW:
+<img width="1193" height="86" alt="image" src="https://github.com/user-attachments/assets/e9e61ce7-9425-40ca-b9d1-d82d37044b63" />
 
+Step 5: Verifying Firewall Rules
+<img width="958" height="288" alt="image" src="https://github.com/user-attachments/assets/d6c522c6-9096-41e1-84c9-82f6bd6e381a" />
 
+Step 6: Testing the Firewall Rules by checking if only my IP is allowed:
+<img width="834" height="235" alt="image" src="https://github.com/user-attachments/assets/08783a23-83e6-4af6-8061-4959dc148fb1" />
 
+Configuring Files After UFW is enabled: 
+<img width="1193" height="884" alt="image" src="https://github.com/user-attachments/assets/293b2368-a5a3-4886-b954-5da34e9c9b41" />
 
+this is showing all the complex rules blocking traffic except SSH from 192.168.56.101
+(it keeps going)
 
+3. Manage users and implement privilege management, creating a non-root administrative user:
+Step 1: Create New Administrative User:
+<img width="1178" height="635" alt="image" src="https://github.com/user-attachments/assets/35ebcd20-6ca0-426a-9570-0e9cb05c9dcc" />
 
+Step 2: Adding User to Sudo Group:
+<img width="758" height="94" alt="image" src="https://github.com/user-attachments/assets/dfec1763-a93b-478a-b847-f6f5f75ae5ef" />
 
+Step 3: Testing Sudo Access:
+<img width="1077" height="553" alt="image" src="https://github.com/user-attachments/assets/aa484147-2f6d-498b-adff-d97b142b4531" />
 
-Manage users and implement privilege management, creating a non-root administrative user:
-Configuration Files with before and after comparisons
-
-Firewall Documentation showing complete ruleset
-
-Remote Administration Evidence demonstrating commands executed via SSH
-
+Implementing privilege management:
+- Using a Non-Root Account - All daily work is done as vboxuser instead of root.
+- Using sudo for Admin Tasks - Administrative commands require sudo, which forces intentional privilege use and records all actions in /var/log/auth.log.
+- Root Login Disabled

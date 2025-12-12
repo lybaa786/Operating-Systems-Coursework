@@ -20,6 +20,7 @@ I have decided to use my host machine as the workstation rather than creating a 
 - It develops authentic professional administration workflows.
 
 5. Network Configuration Documentation:
+
 Adapter 1: NAT
 - Purpose: Internet access for downloading updates and packages.
 - How it works: The server can reach the internet, but the internet cannot reach the server.

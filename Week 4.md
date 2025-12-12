@@ -1,7 +1,6 @@
 Phase 4: Initial System Configuration & Security Implementation
 
 1. Configure SSH with key-based authentication:
-Benefits of this:
 - No need to type passwords each time.
 - Stronger security (keys are harder to brute-force).
 - Enables automation (scripts, Ansible, etc.) without exposing passwords.
@@ -28,7 +27,7 @@ I also changed the PermitRootLogin to no and made sure the PubKeyAuthentificatio
 Step 5: Testing it on a new Terminal:
 <img width="1091" height="554" alt="image" src="https://github.com/user-attachments/assets/83367792-43f6-4612-8753-b1ba6c84fcfc" />
 
-Remote Administration - Commands were run remotely over SSH using the vboxuser@OSCM account.
+Remote Administration - Commands were run remotely over SSH using the vboxuser@OSCW account.
 
 2. Configure a firewall permitting SSH from one specific workstation only:
 

@@ -31,4 +31,4 @@ Used for: All remote administration via SSH
 
 System specifications:
 `uname`, `free`, `df -h`, `ip addr` and `lsb_release`:
-! [description 
+![System Specifications] ( 

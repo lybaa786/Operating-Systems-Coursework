@@ -115,10 +115,16 @@ Kernel Hardening Configuration:
 3.2: File System Security Hardening: 
 <img width="1662" height="165" alt="image" src="https://github.com/user-attachments/assets/f77557e6-13be-4672-8b2e-896a7250821d" />
 
+Result: File system risks were identified and mitigated through preventative hardening measures.
+<img width="1010" height="507" alt="image" src="https://github.com/user-attachments/assets/16205026-db88-4589-8e4e-33f203510f80" />
+
 3.3: Password and Authentication Hardening:
 <img width="864" height="144" alt="image" src="https://github.com/user-attachments/assets/3769dd36-1cfb-44f1-9cb5-469c6f9eb96b" />
 <img width="1182" height="827" alt="image" src="https://github.com/user-attachments/assets/dd52e280-d898-41f5-904a-9571f81e7a26" />
 <img width="1113" height="229" alt="image" src="https://github.com/user-attachments/assets/800995df-f67f-4af9-9a2d-a230b461e123" />
+
+Result: Stronger password and authentication controls were enforced to reduce credential-based attack risk.
+<img width="937" height="405" alt="image" src="https://github.com/user-attachments/assets/6413a85a-be62-4ac5-9a69-980ad4400caf" />
 
 3.4: 
 

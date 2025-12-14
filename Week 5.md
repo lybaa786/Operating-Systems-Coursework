@@ -30,6 +30,9 @@ Step 4: Documenting the AppArmor Configuration:
 <img width="347" height="986" alt="image" src="https://github.com/user-attachments/assets/4870d99c-336f-4a69-b1ab-84e64963ac64" />
 <img width="1478" height="500" alt="image" src="https://github.com/user-attachments/assets/d9beea03-5ac0-41cb-a8f6-a29a1550e9ca" />
 
+*Conclusion*:
+<img width="1553" height="329" alt="image" src="https://github.com/user-attachments/assets/413c70d2-c937-41b7-a938-cc48719550d4" />
+
 
 2. Configuring automatic security updates:
 
@@ -53,15 +56,18 @@ Step 4: Checking the configuration:
 Step 5: Evidence of configuration:
 <img width="940" height="165" alt="image" src="https://github.com/user-attachments/assets/c7d24158-90f4-4d88-b348-94bcdcdfc3ef" />
 
+*Automatic Security Updates*:
+<img width="1558" height="252" alt="image" src="https://github.com/user-attachments/assets/6b46954c-efd4-4fff-ba9d-cc2917198432" />
+
 3.  Configure fail2ban for enhanced intrusion detection:
 
 Fail2ban monitors log files (/var/log/auth.log) for suspicious activity (failed SSH logins, port scans) and automatically bans offending IP addresses by adding firewall rules.
 
-Step 1: Installing fail2ban:
-Step 2: Configuring it:
-Step 3: Enabling it:
-Step 4: Verifying fail2ban is Monitoring SSH:
-Step 5: Monitoring fail2ban Logs:
+*checking the service status after downloading it(to see active (running)), creating and editing a local configuration file, saving and restarting it*:
+<img width="1822" height="709" alt="image" src="https://github.com/user-attachments/assets/49dd0adb-deaf-4df0-aacc-7c30c00299cc" />
+
+*locating the [sshd] section and configure*:
+<img width="415" height="210" alt="image" src="https://github.com/user-attachments/assets/a6adaea1-5095-4198-868f-37b5f9786982" />
 
 4.  Security baseline verification script:
 
